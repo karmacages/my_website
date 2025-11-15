@@ -1,0 +1,72 @@
+
+body, head {
+  display: block;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 100vw; */
+  /* height: 100vh; */
+}
+.box1 {
+  background-image: url('./BOX1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 20vh;
+  padding: 1%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.box1 img {
+  height: 100%;
+  mix-blend-mode:multiply ;
+}
+.box2 {
+  background-image: url('./BOX2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 20vh;
+  padding: 2%;
+}
+.box2 img {
+  /* width: 100%; */
+  height: 100%;
+  mix-blend-mode:hard-light ;
+}
+.box3 {
+  background-image: url('./BOX3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: normal;
+  height: 20vh;
+  padding: 2%;
+}
+.box3 img {
+  height: 100%;
+  mix-blend-mode:hard-light ;
+}
+
+.box4 {
+  background-image: url('./BOX4.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 10vh;
+  padding: 2%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.box4 a {
+  height:100%
+}
+
+#enter {
+ height: 100%;
+}
